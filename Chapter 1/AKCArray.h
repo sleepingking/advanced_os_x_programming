@@ -12,4 +12,6 @@
 
 - (id)initWithObjects:(id)firstObj, ... NS_REQUIRES_NIL_TERMINATION;
 
+- (void)removeObject:(id)object;
+
 @end

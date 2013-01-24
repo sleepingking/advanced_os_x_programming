@@ -53,4 +53,21 @@
 	}
 }
 
+- (void)testCThrow
+{
+	AKCArray *cArray = [[AKCArray alloc] initWithObjects:@1,@2, nil];
+	BOOL exeptionCatched = NO;
+	@try {
+		for (id object in cArray) {
+			[cArray removeObject:object];
+		}
+	}
+	@catch (NSException *exception) {
+		exeptionCatched = YES;
+	}
+	@finally {
+		STAssertTrue(exeptionCatched, @"An exception should have raised.");
+	}
+}
+
 @end

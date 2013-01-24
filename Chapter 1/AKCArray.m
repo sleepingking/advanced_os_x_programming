@@ -12,7 +12,7 @@
 @implementation AKCArray
 {
 	id __strong *_objects;
-	int _objectCount;
+	NSUInteger _objectCount;
 	unsigned long _mutations;
 }
 
@@ -36,7 +36,7 @@
 			va_start(args, firstObject);
 			
 			void *ptrArray = malloc(sizeof(id) * _objectCount);
-			bzero(ptrArray, sizeof(id) * _objectCount); // this is important, otherwise runtime will think the array is not empty and try to call release on randam address when trying to add object to it
+			bzero(ptrArray, sizeof(id) * _objectCount); // this is important, as otherwise runtime will think the array is not empty and try to call release on randam address when trying to add object to it.
 			
 			_objects = (id __strong*)ptrArray;
 			object = firstObject;
@@ -50,6 +50,26 @@
 		}
 	}
 	return self;
+}
+
+- (void)removeObject:(id)object
+{
+	if (_objectCount == 0)
+		return;
+	
+	NSUInteger i;
+	for (i = 0; i < _objectCount; ++i) {
+		if (_objects[i] == object)
+			break;
+	}
+	
+	for  (; i+1 < _objectCount; ++i) {
+		_objects[i] = _objects[i+1];
+	}
+	
+	_objects[i] = nil;
+	_objectCount--;
+	_mutations++; // indicates the change
 }
 
 - (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state
@@ -68,7 +88,7 @@
 	else {
 		NSUInteger idx = 0;
 		while (idx < len && (idx + count) < _objectCount) {
-			buffer[idx] = _objects[idx + count];
+			buffer[idx] = _objects[idx + count]; // fill the buffer
 			++idx;
 		}
 		
