@@ -7,38 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD7928D016B0FB5D004113D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7928CF16B0FB5D004113D5 /* Foundation.framework */; };
-		DD7928D316B0FB5D004113D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7928D216B0FB5D004113D5 /* main.m */; };
-		DD7928D716B0FB5D004113D5 /* Advanced_OS_X_Programming.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD7928D616B0FB5D004113D5 /* Advanced_OS_X_Programming.1 */; };
+		DD7928E816B0FBCE004113D5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7928E716B0FBCE004113D5 /* SenTestingKit.framework */; };
+		DD7928EA16B0FBCE004113D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7928E916B0FBCE004113D5 /* Cocoa.framework */; };
+		DD79290016B10174004113D5 /* AKRuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7928FF16B10174004113D5 /* AKRuntimeObject.m */; };
+		DD79290916B1019B004113D5 /* Chapter_1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79290516B1019B004113D5 /* Chapter_1_Test.m */; };
+		DD79290A16B1019B004113D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD79290616B1019B004113D5 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		DD7928C916B0FB5D004113D5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				DD7928D716B0FB5D004113D5 /* Advanced_OS_X_Programming.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		DD7928CB16B0FB5D004113D5 /* Advanced OS X Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advanced OS X Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7928CF16B0FB5D004113D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DD7928D216B0FB5D004113D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD7928D516B0FB5D004113D5 /* Advanced OS X Programming-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Advanced OS X Programming-Prefix.pch"; sourceTree = "<group>"; };
-		DD7928D616B0FB5D004113D5 /* Advanced_OS_X_Programming.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Advanced_OS_X_Programming.1; sourceTree = "<group>"; };
+		DD7928E616B0FBCE004113D5 /* Chapter 1 Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chapter 1 Test.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7928E716B0FBCE004113D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD7928E916B0FBCE004113D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		DD7928EC16B0FBCE004113D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD7928ED16B0FBCE004113D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD7928EE16B0FBCE004113D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD7928FE16B10174004113D5 /* AKRuntimeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKRuntimeObject.h; sourceTree = "<group>"; };
+		DD7928FF16B10174004113D5 /* AKRuntimeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKRuntimeObject.m; sourceTree = "<group>"; };
+		DD79290216B1019B004113D5 /* Chapter 1 Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chapter 1 Test-Info.plist"; sourceTree = "<group>"; };
+		DD79290316B1019B004113D5 /* Chapter 1 Test-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chapter 1 Test-Prefix.pch"; sourceTree = "<group>"; };
+		DD79290416B1019B004113D5 /* Chapter_1_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter_1_Test.h; sourceTree = "<group>"; };
+		DD79290516B1019B004113D5 /* Chapter_1_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter_1_Test.m; sourceTree = "<group>"; };
+		DD79290716B1019B004113D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD7928C816B0FB5D004113D5 /* Frameworks */ = {
+		DD7928E216B0FBCE004113D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD7928D016B0FB5D004113D5 /* Foundation.framework in Frameworks */,
+				DD7928E816B0FBCE004113D5 /* SenTestingKit.framework in Frameworks */,
+				DD7928EA16B0FBCE004113D5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +47,7 @@
 		DD7928C016B0FB5D004113D5 = {
 			isa = PBXGroup;
 			children = (
-				DD7928D116B0FB5D004113D5 /* Advanced OS X Programming */,
+				DD7928DD16B0FB99004113D5 /* Chapter 1 */,
 				DD7928CE16B0FB5D004113D5 /* Frameworks */,
 				DD7928CC16B0FB5D004113D5 /* Products */,
 			);
@@ -57,7 +56,7 @@
 		DD7928CC16B0FB5D004113D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD7928CB16B0FB5D004113D5 /* Advanced OS X Programming */,
+				DD7928E616B0FBCE004113D5 /* Chapter 1 Test.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,47 +65,74 @@
 			isa = PBXGroup;
 			children = (
 				DD7928CF16B0FB5D004113D5 /* Foundation.framework */,
+				DD7928E716B0FBCE004113D5 /* SenTestingKit.framework */,
+				DD7928E916B0FBCE004113D5 /* Cocoa.framework */,
+				DD7928EB16B0FBCE004113D5 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD7928D116B0FB5D004113D5 /* Advanced OS X Programming */ = {
+		DD7928DD16B0FB99004113D5 /* Chapter 1 */ = {
 			isa = PBXGroup;
 			children = (
-				DD7928D216B0FB5D004113D5 /* main.m */,
-				DD7928D616B0FB5D004113D5 /* Advanced_OS_X_Programming.1 */,
-				DD7928D416B0FB5D004113D5 /* Supporting Files */,
+				DD7928FD16B10174004113D5 /* Chapter 1 */,
 			);
-			path = "Advanced OS X Programming";
+			name = "Chapter 1";
+			path = "Advanced OS X Programming/Chapter 1";
 			sourceTree = "<group>";
 		};
-		DD7928D416B0FB5D004113D5 /* Supporting Files */ = {
+		DD7928EB16B0FBCE004113D5 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD7928D516B0FB5D004113D5 /* Advanced OS X Programming-Prefix.pch */,
+				DD7928EC16B0FBCE004113D5 /* AppKit.framework */,
+				DD7928ED16B0FBCE004113D5 /* CoreData.framework */,
+				DD7928EE16B0FBCE004113D5 /* Foundation.framework */,
 			);
-			name = "Supporting Files";
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DD7928FD16B10174004113D5 /* Chapter 1 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7928FE16B10174004113D5 /* AKRuntimeObject.h */,
+				DD7928FF16B10174004113D5 /* AKRuntimeObject.m */,
+				DD79290116B1019B004113D5 /* Chapter 1 Test */,
+			);
+			path = "Chapter 1";
+			sourceTree = SOURCE_ROOT;
+		};
+		DD79290116B1019B004113D5 /* Chapter 1 Test */ = {
+			isa = PBXGroup;
+			children = (
+				DD79290216B1019B004113D5 /* Chapter 1 Test-Info.plist */,
+				DD79290316B1019B004113D5 /* Chapter 1 Test-Prefix.pch */,
+				DD79290416B1019B004113D5 /* Chapter_1_Test.h */,
+				DD79290516B1019B004113D5 /* Chapter_1_Test.m */,
+				DD79290616B1019B004113D5 /* InfoPlist.strings */,
+			);
+			path = "Chapter 1 Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD7928CA16B0FB5D004113D5 /* Advanced OS X Programming */ = {
+		DD7928E516B0FBCE004113D5 /* Chapter 1 Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7928DA16B0FB5D004113D5 /* Build configuration list for PBXNativeTarget "Advanced OS X Programming" */;
+			buildConfigurationList = DD7928F916B0FBCE004113D5 /* Build configuration list for PBXNativeTarget "Chapter 1 Test" */;
 			buildPhases = (
-				DD7928C716B0FB5D004113D5 /* Sources */,
-				DD7928C816B0FB5D004113D5 /* Frameworks */,
-				DD7928C916B0FB5D004113D5 /* CopyFiles */,
+				DD7928E116B0FBCE004113D5 /* Sources */,
+				DD7928E216B0FBCE004113D5 /* Frameworks */,
+				DD7928E316B0FBCE004113D5 /* Resources */,
+				DD7928E416B0FBCE004113D5 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Advanced OS X Programming";
-			productName = "Advanced OS X Programming";
-			productReference = DD7928CB16B0FB5D004113D5 /* Advanced OS X Programming */;
-			productType = "com.apple.product-type.tool";
+			name = "Chapter 1 Test";
+			productName = "Chapter 1 Test";
+			productReference = DD7928E616B0FBCE004113D5 /* Chapter 1 Test.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -129,21 +155,60 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD7928CA16B0FB5D004113D5 /* Advanced OS X Programming */,
+				DD7928E516B0FBCE004113D5 /* Chapter 1 Test */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		DD7928E316B0FBCE004113D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD79290A16B1019B004113D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD7928E416B0FBCE004113D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DD7928C716B0FB5D004113D5 /* Sources */ = {
+		DD7928E116B0FBCE004113D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD7928D316B0FB5D004113D5 /* main.m in Sources */,
+				DD79290016B10174004113D5 /* AKRuntimeObject.m in Sources */,
+				DD79290916B1019B004113D5 /* Chapter_1_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD79290616B1019B004113D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD79290716B1019B004113D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD7928D816B0FB5D004113D5 /* Debug */ = {
@@ -199,21 +264,29 @@
 			};
 			name = Release;
 		};
-		DD7928DB16B0FB5D004113D5 /* Debug */ = {
+		DD7928FA16B0FBCE004113D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Advanced OS X Programming/Advanced OS X Programming-Prefix.pch";
+				GCC_PREFIX_HEADER = "Chapter 1/Chapter 1 Test/Chapter 1 Test-Prefix.pch";
+				INFOPLIST_FILE = "Chapter 1/Chapter 1 Test/Chapter 1 Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		DD7928DC16B0FB5D004113D5 /* Release */ = {
+		DD7928FB16B0FBCE004113D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Advanced OS X Programming/Advanced OS X Programming-Prefix.pch";
+				GCC_PREFIX_HEADER = "Chapter 1/Chapter 1 Test/Chapter 1 Test-Prefix.pch";
+				INFOPLIST_FILE = "Chapter 1/Chapter 1 Test/Chapter 1 Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -229,11 +302,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7928DA16B0FB5D004113D5 /* Build configuration list for PBXNativeTarget "Advanced OS X Programming" */ = {
+		DD7928F916B0FBCE004113D5 /* Build configuration list for PBXNativeTarget "Chapter 1 Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD7928DB16B0FB5D004113D5 /* Debug */,
-				DD7928DC16B0FB5D004113D5 /* Release */,
+				DD7928FA16B0FBCE004113D5 /* Debug */,
+				DD7928FB16B0FBCE004113D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

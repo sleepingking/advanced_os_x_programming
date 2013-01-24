@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AKRuntimeObject.h
 //  Advanced OS X Programming
 //
 //  Created by Ben Chen on 1/23/13.
@@ -8,15 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
-{
+@interface AKRuntimeObject : NSObject
 
-	@autoreleasepool {
-	    
-	    // insert code here...
-	    NSLog(@"Hello, World!");
-	    
-	}
-    return 0;
-}
+@property (copy, nonatomic) NSString *name;
 
+@end
