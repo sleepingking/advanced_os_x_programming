@@ -12,6 +12,7 @@
 		DD79290016B10174004113D5 /* AKRuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7928FF16B10174004113D5 /* AKRuntimeObject.m */; };
 		DD79290916B1019B004113D5 /* Chapter_1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79290516B1019B004113D5 /* Chapter_1_Test.m */; };
 		DD79290A16B1019B004113D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD79290616B1019B004113D5 /* InfoPlist.strings */; };
+		DD79292616B1048C004113D5 /* AKCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79292516B1048C004113D5 /* AKCArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DD79290416B1019B004113D5 /* Chapter_1_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter_1_Test.h; sourceTree = "<group>"; };
 		DD79290516B1019B004113D5 /* Chapter_1_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter_1_Test.m; sourceTree = "<group>"; };
 		DD79290716B1019B004113D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD79292416B1048C004113D5 /* AKCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCArray.h; sourceTree = "<group>"; };
+		DD79292516B1048C004113D5 /* AKCArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 			children = (
 				DD7928FE16B10174004113D5 /* AKRuntimeObject.h */,
 				DD7928FF16B10174004113D5 /* AKRuntimeObject.m */,
+				DD79292416B1048C004113D5 /* AKCArray.h */,
+				DD79292516B1048C004113D5 /* AKCArray.m */,
 				DD79290116B1019B004113D5 /* Chapter 1 Test */,
 			);
 			path = "Chapter 1";
@@ -194,6 +199,7 @@
 			files = (
 				DD79290016B10174004113D5 /* AKRuntimeObject.m in Sources */,
 				DD79290916B1019B004113D5 /* Chapter_1_Test.m in Sources */,
+				DD79292616B1048C004113D5 /* AKCArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

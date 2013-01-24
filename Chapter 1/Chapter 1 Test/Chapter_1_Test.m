@@ -7,6 +7,8 @@
 //
 
 #import "AKRuntimeObject.h"
+#import "AKCArray.h"
+
 #import "Chapter_1_Test.h"
 
 @implementation Chapter_1_Test
@@ -31,6 +33,24 @@
 	NSString *name = @"theName";
 	STAssertNoThrow(runtimeObject.name = name, @"");
 	STAssertEqualObjects(name, runtimeObject.name, @"");
+}
+
+- (void)testCArray
+{
+	AKCArray *cArray = [[AKCArray alloc] initWithObjects:@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12,@13,@14,@15,@16,@17,@18, nil];
+	NSArray *array = [[NSArray alloc] initWithObjects:@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12,@13,@14,@15,@16,@17,@18, nil];
+	NSUInteger idx = 0;
+	for (id object in cArray) {
+		STAssertEqualObjects(object, array[idx], @"they should equal");
+		++idx;
+	}
+	
+	cArray = [[AKCArray alloc] initWithObjects:[[NSObject alloc] init], nil];
+	idx = 0;
+	for (id object in cArray) {
+		NSLog(@"object:%@", object);
+		++idx;
+	}
 }
 
 @end
