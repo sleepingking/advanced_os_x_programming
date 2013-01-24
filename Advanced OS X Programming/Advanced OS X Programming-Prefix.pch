@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Advanced OS X Programming' target in the 'Advanced OS X Programming' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
